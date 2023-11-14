@@ -1,8 +1,10 @@
 import { Outlet } from 'react-router-dom';
+import Navbar from './Navbar';
 
 const Root = () => {
   return (
-    <main className='font-realway'>
+    <main>
+      <Navbar />
       <Outlet />
     </main>
   );
