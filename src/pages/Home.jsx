@@ -1,0 +1,9 @@
+const Home = () => {
+  return (
+    <div className='font'>
+      <h1> Welcome to home</h1>
+    </div>
+  );
+};
+
+export default Home;
