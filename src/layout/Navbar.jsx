@@ -107,6 +107,7 @@ const Navbar = () => {
         <Hamburger
           toggled={isOpen}
           toggle={setOpen}
+          size={26}
         />
       </div>
     </nav>

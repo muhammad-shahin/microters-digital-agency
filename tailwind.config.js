@@ -1,4 +1,6 @@
+import keepPreset from 'keep-react/src/keep-preset.js';
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -38,8 +40,9 @@ export default {
           950: '#4a0505',
         },
         secondary: '#00005A',
+        offWhite: '#F3F9F3',
       },
     },
   },
-  plugins: [],
+  plugins: [keepPreset],
 };
