@@ -1,0 +1,25 @@
+.logo-container {
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  animation: scroll 10s linear infinite;
+}
+.logo {
+  width: 150px;
+  margin-left: 10px;
+  object-fit: cover;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Adjust based on the number of images */
+  }
+}
