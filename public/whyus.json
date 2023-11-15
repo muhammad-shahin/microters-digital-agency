@@ -1,0 +1,26 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "We Have Proven Results",
+    "serviceDescription": "We have professional competence and proven records to build a custom strategy to meet your goals.",
+    "serviceImage": "https://www.microters.com/wp-content/uploads/2021/11/We-Have-Proven-Resultsu-80xy.png"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Reputed seller in BHW",
+    "serviceDescription": "Our client retention rate is 90% and the client recommendation score is 300% higher than the nationwide average.",
+    "serviceImage": "https://www.microters.com/wp-content/uploads/2021/11/Reputed-seller-in-BHWu.png"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "We Are Honest & Ethical",
+    "serviceDescription": "We believe in honesty, integrity, and respecting our clients; we keep all your access information and data 100% secure.",
+    "serviceImage": "https://www.microters.com/wp-content/uploads/2021/11/We-Are-Honest-_-Ethicalu.png"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Quality Standard & Support",
+    "serviceDescription": "We’ll update you with your required documentation and guidelines for each deliverable.",
+    "serviceImage": "https://www.microters.com/wp-content/uploads/2021/11/Quality-Standardu-85xy.png"
+  }
+]

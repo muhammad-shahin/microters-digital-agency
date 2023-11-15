@@ -11,7 +11,9 @@ const ShowServiceCard = ({ service }) => {
         loading='lazy'
         className='mx-auto'
       />
-      <h3 className='text-secondary md:text-3xl text-xl'>{serviceName}</h3>
+      <h3 className='text-secondary md:text-3xl text-xl font-semibold'>
+        {serviceName}
+      </h3>
       <p className='base-text'>{serviceDescription}</p>
       <div className='w-fit mx-auto'>
         <PrimaryButton text='Discover More' />

@@ -6,6 +6,7 @@ import statAnim from '../assets/animation/statisctics-anim.json';
 import SectionTitle from '../components/shared/SectionTitle';
 import ServiceCards from '../components/ServiceCards/ServiceCards';
 import ParticlesBackground from '../components/ParticlesBackground/ParticlesBackground';
+import WhyChoseUs from '../components/WhyChoseUs/WhyChoseUs';
 
 const Home = () => {
   PageTitle('Microters | Digital Agency');
@@ -91,7 +92,7 @@ const Home = () => {
           extraText='?'
           subText='If you want to take your business to the next level, partnering with us can be profitable for you. We know how things work, and our proven record speaks for us.'
         />
-        <ServiceCards />
+        <WhyChoseUs />
       </div>
     </div>
   );
