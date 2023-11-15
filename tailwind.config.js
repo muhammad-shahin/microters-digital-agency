@@ -4,7 +4,6 @@ import keepPreset from 'keep-react/src/keep-preset.js';
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    fontFamily: { realway: 'Raleway, sans-serif' },
     screens: {
       xsm: '320px',
       // => @media (min-width: 320px) { ... }

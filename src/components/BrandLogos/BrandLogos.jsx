@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import './BrandLogos.css';
 import Marquee from 'react-fast-marquee';
 
@@ -14,8 +13,11 @@ const BrandLogos = () => {
   ];
   return (
     <div className=''>
-      <Marquee>
-        <div className='flex justify-between items-center gap-28 w-full'>
+      <Marquee
+        speed={100}
+        className=''
+      >
+        <div className='flex justify-between items-center lg:gap-28 sm:gap-8 w-full'>
           {logos.map((logo, index) => (
             <img
               className='logo'
@@ -29,7 +31,5 @@ const BrandLogos = () => {
     </div>
   );
 };
-
-BrandLogos.propTypes = {};
 
 export default BrandLogos;

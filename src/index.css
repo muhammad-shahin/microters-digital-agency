@@ -1,10 +1,10 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
 @import 'keep-react/src/main.min.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* google font */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 
 * {
   margin: 0;
@@ -25,6 +25,9 @@
 }
 .max-screen {
   @apply max-w-[1340px] mx-auto;
+}
+.base-text {
+  @apply text-[#6a738e] lg:text-left leading-8 text-[19px] max-w-[650px];
 }
 
 .primary-button {
