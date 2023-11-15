@@ -28,7 +28,7 @@ const Navbar = () => {
       <ul
         className={`flex lg:flex-row flex-col bg-punch-50 lg:bg-transparent justify-center items-center gap-6 absolute lg:static top-0 ${
           isOpen ? 'right-0' : 'right-[-100%]'
-        } w-full lg:w-auto h-screen lg:h-auto duration-500`}
+        } w-full lg:w-auto h-screen lg:h-auto duration-500 z-[100]`}
       >
         <NavLink to='/'>
           <li className='nav-item'>Home</li>
@@ -103,7 +103,7 @@ const Navbar = () => {
       </div>
 
       {/* hamburger icon */}
-      <div className='lg:hidden block'>
+      <div className='lg:hidden block relative z-[100]'>
         <Hamburger
           toggled={isOpen}
           toggle={setOpen}

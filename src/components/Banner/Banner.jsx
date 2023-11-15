@@ -29,7 +29,7 @@ const Banner = () => {
             Google’s SERPs also. So, if you are looking for Affordable SEO
             Package for your small business, we are here for you.
           </p>
-          <p className='lg:text-lg text-sm text-offWhite'>
+          <p className='lg:text-lg text-sm text-offWhite lg:block hidden'>
             We are Microters LLC, a leading and affordable Search Engine
             Optimization services company in the United States. Microters
             provides top-notch and high-quality service at quite affordable
@@ -37,7 +37,7 @@ const Banner = () => {
             best organic SEO services without breaking your bank. Here are the
             SEO packages that you’ll get from us.
           </p>
-          <p className='lg:text-lg text-sm text-offWhite'>
+          <p className='lg:text-lg text-sm text-offWhite lg:block hidden'>
             Finding a High-quality and reputed SEO consulting firm for online
             business marketing and promotion can be a daunting task, especially
             if you own a small business. If you use the wrong promotional
@@ -57,7 +57,7 @@ const Banner = () => {
               <hr className='w-[35%] h-[5px] bg-punch-500 relative z-40' />
               <hr className='w-full h-[5px] bg-secondary absolute top-0 left-0' />
             </div>
-            <div className='flex justify-center items-center gap-4'>
+            <div className='flex justify-center items-center gap-4 lg:flex-row flex-col'>
               <Input
                 label='Name'
                 type='text'
@@ -73,7 +73,7 @@ const Banner = () => {
                 placeholder='Your Email'
               />
             </div>
-            <div className='flex justify-center items-center gap-4'>
+            <div className='flex justify-center items-center gap-4 lg:flex-row flex-col'>
               <SelectOptions
                 label='Service Type'
                 isRequired={true}
