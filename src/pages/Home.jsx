@@ -3,6 +3,8 @@ import BrandLogos from '../components/BrandLogos/BrandLogos';
 import PageTitle from '../components/shared/PageTitle';
 import TwoSideContent from '../components/shared/TwoSideContent';
 import statAnim from '../assets/animation/statisctics-anim.json';
+import SectionTitle from '../components/shared/SectionTitle';
+import ServiceCards from '../components/ServiceCards/ServiceCards';
 
 const Home = () => {
   PageTitle('Microters | Digital Agency');
@@ -19,10 +21,10 @@ const Home = () => {
       </div>
 
       {/* improve your business section */}
-      <div className='max-screen my-20 px-[5%] lg:px-0'>
+      <div className='max-screen mt-20 mb-10 px-[5%] lg:px-0'>
         <TwoSideContent animation={statAnim}>
           <div className='space-y-5'>
-            <h2 className='font-bold lg:text-[2.5rem] text-2xl max-w-2xl leading-[45px]'>
+            <h2 className='font-bold lg:text-[2.5rem] text-2xl max-w-2xl leading-[45px] text-secondary'>
               Improve Your Business With a Trusted SEO Provider Company
             </h2>
             <p className='base-text'>
@@ -47,6 +49,25 @@ const Home = () => {
             </p>
           </div>
         </TwoSideContent>
+      </div>
+
+      {/* our affordable section */}
+      <div className='my-10 max-screen px-[5%] lg:px-0'>
+        <SectionTitle
+          title='Our affordable'
+          colorTitle='Search Engine Optimization services'
+          subText='Through our years of experience, and top-notch SEO services, we’ll make your site stand apart from the crowd and reach the top position.'
+        />
+        <ServiceCards />
+      </div>
+
+      {/* our affordable section */}
+      <div className='my-10'>
+        <SectionTitle
+          title='Our affordable'
+          colorTitle='Search Engine Optimization services'
+          subText='Through our years of experience, and top-notch SEO services, we’ll make your site stand apart from the crowd and reach the top position.'
+        />
       </div>
     </div>
   );

@@ -27,7 +27,7 @@
   @apply max-w-[1340px] mx-auto;
 }
 .base-text {
-  @apply text-[#6a738e] lg:text-left leading-8 text-[19px] max-w-[650px];
+  @apply text-[#6a738e] leading-8 text-[19px] max-w-[650px];
 }
 
 .primary-button {
