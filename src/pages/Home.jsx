@@ -5,6 +5,7 @@ import TwoSideContent from '../components/shared/TwoSideContent';
 import statAnim from '../assets/animation/statisctics-anim.json';
 import SectionTitle from '../components/shared/SectionTitle';
 import ServiceCards from '../components/ServiceCards/ServiceCards';
+import ParticlesBackground from '../components/ParticlesBackground/ParticlesBackground';
 
 const Home = () => {
   PageTitle('Microters | Digital Agency');
@@ -62,12 +63,35 @@ const Home = () => {
       </div>
 
       {/* our affordable section */}
-      <div className='my-10'>
+      <div className='my-10 bg-black relative backdrop-blur-sm'>
+        <div className='px-[5%] lg:px-0  py-10 max-screen'>
+          <TwoSideContent image='https://microters.com/wp-content/uploads/2021/11/Why-Does-Your-Business-Need-SEO.png'>
+            <div className='space-y-5'>
+              <h2 className='font-bold lg:text-[2.5rem] text-2xl max-w-2xl leading-[45px] text-white'>
+                Why does your business need SEO?
+              </h2>
+              <p className='leading-8 text-[19px] max-w-[650px] text-white'>
+                From local to global, regardless of the size of your business,
+                your primary goal should be to rank higher and reach more
+                organic traffic. And to make this possible, SEO is one of the
+                most reliable ways. SEO optimizes your website, boosts your
+                online presence, reaches more people, and generates higher
+                sales.
+              </p>
+            </div>
+          </TwoSideContent>
+        </div>
+      </div>
+
+      {/* why microters section */}
+      <div className='my-10 max-screen px-[5%] lg:px-0'>
         <SectionTitle
-          title='Our affordable'
-          colorTitle='Search Engine Optimization services'
-          subText='Through our years of experience, and top-notch SEO services, we’ll make your site stand apart from the crowd and reach the top position.'
+          title='Why'
+          colorTitle='Microters As Your SEO Company'
+          extraText='?'
+          subText='If you want to take your business to the next level, partnering with us can be profitable for you. We know how things work, and our proven record speaks for us.'
         />
+        <ServiceCards />
       </div>
     </div>
   );

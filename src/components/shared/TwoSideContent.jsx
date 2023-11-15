@@ -4,9 +4,7 @@ import logo from '../../assets/microters-logo.png';
 
 const TwoSideContent = ({ children, animation, image }) => {
   return (
-    <div
-      className={`flex lg:justify-between lg:items-start justify-center items-center`}
-    >
+    <div className={`flex lg:justify-between justify-center items-center`}>
       {/* left side text content */}
       <div>{children}</div>
 
