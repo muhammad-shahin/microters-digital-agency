@@ -7,7 +7,6 @@ const WhyChoseUs = () => {
   useEffect(() => {
     axios.get('/whyus.json').then((response) => {
       setServicesData(response.data);
-      console.log(response.data);
     });
   }, []);
   return (

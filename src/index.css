@@ -33,3 +33,36 @@
 .primary-button {
   @apply lg:px-5 px-2 lg:py-2 py-1 font-semibold lg:text-[18px] text-[14px] rounded-full bg-punch-500 text-white border-2 border-transparent hover:text-punch-500 hover:bg-transparent hover:border-punch-500 duration-500 uppercase flex justify-center items-center gap-2;
 }
+
+/* index.css */
+
+/* Override styles for the DatePicker input */
+.react-datepicker__input-container input {
+  /* Add your custom styles here */
+  /* For example: */
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline-color: #fe3535;
+  padding: 12px 0.75rem;
+  width: 100%;
+  height: 100%;
+}
+
+/* Override styles for the calendar icon */
+.react-datepicker__input-container span {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Override styles for the date picker wrapper */
+.react-datepicker-wrapper {
+  /* Add your custom styles here */
+  /* For example: */
+  width: 100%;
+  margin-bottom: 10px;
+}

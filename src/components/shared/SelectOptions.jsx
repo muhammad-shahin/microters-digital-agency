@@ -8,7 +8,6 @@ const SelectOptions = ({
   placeholder,
   name,
   onChange,
-  defaultValue,
   errorMessage,
   readOnly,
   defaultOption,
@@ -29,7 +28,7 @@ const SelectOptions = ({
       <div className='relative'>
         <select
           defaultValue={defaultOption}
-          className='w-[100%] border-2 border-gray bg-gray-100 px-5 lg:py-4 py-2 text-[18px] font-medium text-black placeholder:text-[16px] rounded outline-2 outline-punch-500 cursor-pointer appearance-none'
+          className='w-[100%] border-2 border-gray bg-gray-100 px-5 lg:py-4 py-3 text-[18px] font-medium text-black placeholder:text-[16px] rounded outline-2 outline-punch-500 cursor-pointer appearance-none'
           name={name}
           placeholder={placeholder}
           onChange={onChange}
@@ -84,7 +83,6 @@ SelectOptions.propTypes = {
   placeholder: PropTypes.string,
   name: PropTypes.string,
   onChange: PropTypes.func,
-  defaultValue: PropTypes.string,
   errorMessage: PropTypes.string,
   defaultOption: PropTypes.string,
   options: PropTypes.array,

@@ -1,0 +1,30 @@
+[
+  {
+    "reviewerName": "Nazmul Hasan",
+    "reviewerDesignation": "CEO Microters",
+    "clinetReview": "Amazing service and quie affordable. I’ll love to buy your service and leave this wonderful giveaway for others.",
+    "reviewerImage": "https://i.ibb.co/g9GSXj0/nazmul-ceo-microters.jpg",
+    "rating": 5
+  },
+  {
+    "reviewerName": "Habibur Rahman",
+    "reviewerDesignation": "COO Microters",
+    "clinetReview": "It has been a while (5weeks), so I think it’s fair to write a review now : 100% Links indexed, Content is good, just as his advertised…",
+    "reviewerImage": "https://i.ibb.co/TqB8W7d/COO-Microters.jpg",
+    "rating": 5
+  },
+  {
+    "reviewerName": "Forhad Hossain",
+    "reviewerDesignation": "Web Developer",
+    "clinetReview": "I received a review copy of this service which includes 5 profile backlinks. I received a report with the username and password…",
+    "reviewerImage": "https://i.ibb.co/bPMpC7k/web-developer.jpg",
+    "rating": 5
+  },
+  {
+    "reviewerName": "MD Sahajahan",
+    "reviewerDesignation": "Digital Marketer",
+    "clinetReview": "I received a review copy of this service which includes 5 profile backlinks. I received a report with the username and password…",
+    "reviewerImage": "https://i.ibb.co/DtFGT8x/digital-marketer.jpg",
+    "rating": 5
+  }
+]

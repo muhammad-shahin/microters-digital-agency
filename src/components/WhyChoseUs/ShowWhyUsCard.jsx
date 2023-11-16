@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const ShowWhyUsCard = ({ service }) => {
   const { serviceName, serviceDescription, serviceImage } = service;
   return (
-    <div className='border rounded p-5 text-center shadow-md w-fit space-y-6 max-w-[350px]'>
+    <div className='border rounded p-5 text-center shadow-md w-fit space-y-6 md:max-w-[350px]'>
       <img
         src={serviceImage}
         alt={serviceName}

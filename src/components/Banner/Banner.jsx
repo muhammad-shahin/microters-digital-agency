@@ -4,10 +4,10 @@ import SelectOptions from '../shared/SelectOptions';
 import { useState } from 'react';
 import { DatePicker } from 'keep-react';
 import TextBox from '../shared/TextBox';
-import PrimaryButton from '../shared/PrimaryButton';
 
 const Banner = () => {
   const [date, setDate] = useState(null);
+  console.log(date);
   return (
     <section className='min-h-[90vh] relative backdrop-blur-sm  bg-black xl:px-[8%] xl:py-20 px-[5%] py-10'>
       {/* overlay */}
@@ -96,6 +96,7 @@ const Banner = () => {
                 name='email'
               />
             </div>
+
             <TextBox
               label='How can we help you?'
               type='message'

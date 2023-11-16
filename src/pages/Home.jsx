@@ -5,8 +5,13 @@ import TwoSideContent from '../components/shared/TwoSideContent';
 import statAnim from '../assets/animation/statisctics-anim.json';
 import SectionTitle from '../components/shared/SectionTitle';
 import ServiceCards from '../components/ServiceCards/ServiceCards';
-import ParticlesBackground from '../components/ParticlesBackground/ParticlesBackground';
 import WhyChoseUs from '../components/WhyChoseUs/WhyChoseUs';
+import ShowClientReview from '../components/ClientReview/ShowClientReview';
+import ClientReview from '../components/ClientReview/ClientReview';
+import SecondaryButton from '../components/shared/SecondaryButton';
+import PrimaryButton from '../components/shared/PrimaryButton';
+import BlogPostCard from '../components/BlogPost/BlogPostCard';
+import BlogPost from '../components/BlogPost/BlogPost';
 
 const Home = () => {
   PageTitle('Microters | Digital Agency');
@@ -93,6 +98,34 @@ const Home = () => {
           subText='If you want to take your business to the next level, partnering with us can be profitable for you. We know how things work, and our proven record speaks for us.'
         />
         <WhyChoseUs />
+      </div>
+
+      {/* what client say section */}
+      <div className='py-10 bg-punch-600'>
+        <div className='max-screen py-20 px-[5%] xl:px-0'>
+          <SectionTitle
+            textColor='text-white'
+            title='What Clients Say!'
+            subText='We’ve provided our services to hundreds of our clients. Our happy clients never skimp on talking about our services. Here are their reviews about us and our services, which will help you to know us better'
+          />
+          <ClientReview />
+          <div className='mx-auto w-fit mt-10'>
+            <PrimaryButton text='View More' />
+          </div>
+        </div>
+      </div>
+
+      {/* Recent section */}
+      <div className=' bg-[#F5F5F5]'>
+        <div className='max-screen py-20 px-[5%] xl:px-0'>
+          <SectionTitle
+            title='Recent Blog'
+            colorTitle='Posts'
+            subText='Microters not only provides top-notch SEO services, but we also share our knowledge with the readers. You’ll find everything related to digital marketing, SEO tips, and tools from our blog posts.'
+          />
+          <BlogPost />
+          <div className='mx-auto w-fit mt-10'></div>
+        </div>
       </div>
     </div>
   );
