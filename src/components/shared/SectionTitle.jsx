@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const SectionTitle = ({ title, colorTitle, extraText, subText, textColor }) => {
   return (
-    <div>
+    <div className='space-y-3'>
       <h2
         className={`text-secondary font-bold md:leading-[45px] lg:text-[36px] md:text-[28px] text-[20px] text-center ${
           textColor && textColor

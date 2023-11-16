@@ -11,6 +11,7 @@ const BlogPostCard = ({ post }) => {
           src={postThumbnail}
           alt=''
           className='w-full object-cover h-[300px]'
+          loading='lazy'
         />
       </div>
 

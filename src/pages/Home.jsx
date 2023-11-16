@@ -102,7 +102,7 @@ const Home = () => {
 
       {/* what client say section */}
       <div className='py-10 bg-punch-600'>
-        <div className='max-screen py-20 px-[5%] xl:px-0'>
+        <div className='max-screen py-10 px-[5%] xl:px-0'>
           <SectionTitle
             textColor='text-white'
             title='What Clients Say!'
