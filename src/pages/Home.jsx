@@ -6,11 +6,8 @@ import statAnim from '../assets/animation/statisctics-anim.json';
 import SectionTitle from '../components/shared/SectionTitle';
 import ServiceCards from '../components/ServiceCards/ServiceCards';
 import WhyChoseUs from '../components/WhyChoseUs/WhyChoseUs';
-import ShowClientReview from '../components/ClientReview/ShowClientReview';
 import ClientReview from '../components/ClientReview/ClientReview';
-import SecondaryButton from '../components/shared/SecondaryButton';
 import PrimaryButton from '../components/shared/PrimaryButton';
-import BlogPostCard from '../components/BlogPost/BlogPostCard';
 import BlogPost from '../components/BlogPost/BlogPost';
 
 const Home = () => {
@@ -115,7 +112,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Recent section */}
+      {/* Recent blog  section */}
       <div className=' bg-[#F5F5F5]'>
         <div className='max-screen py-20 px-[5%] xl:px-0'>
           <SectionTitle

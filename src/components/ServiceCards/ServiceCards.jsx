@@ -7,7 +7,6 @@ const ServiceCards = () => {
   useEffect(() => {
     axios.get('/services.json').then((response) => {
       setServicesData(response.data);
-      console.log(response.data);
     });
   }, []);
   return (

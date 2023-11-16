@@ -27,7 +27,7 @@ const Navbar = () => {
       {/* home */}
       <ul
         className={`flex lg:flex-row flex-col bg-punch-50 lg:bg-transparent justify-center items-center gap-6 absolute lg:static top-0 ${
-          isOpen ? 'right-0' : 'right-[-100%] scale-0'
+          isOpen ? 'right-0' : 'right-[-100%] scale-0 lg:scale-[1]'
         } w-full lg:w-auto h-screen lg:h-auto duration-500 z-[100]`}
       >
         <NavLink to='/'>
